@@ -1,0 +1,99 @@
+body{background-color: white;}
+
+.login{
+    font-family: Roboto;
+    border-radius: 20px;
+    background-color: rgb(141, 139, 139);
+    width: 400px;
+    color: #f8f9fa;
+    padding: 100px;
+    box-shadow: 10px 10px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 500px;
+}
+
+
+.login input{
+    display: block;
+    border-radius: 22px;
+    background: none;
+    margin: 5px auto;
+    text-align: center; 
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    color: white;
+}
+
+.login input[type="checkbox"]{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 12px;
+    text-align: left;
+    display: inline;
+    
+}
+.login h1{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.login label{
+    color: black; 
+}
+
+.login input[type="text"]{
+    border: 2px solid #3498db;
+    background-color: black;
+    width: 300px;
+}
+
+.login input[type="password"]{
+    border: 2px solid #3498db;
+    background-color: black;
+    width:300px;
+}
+
+.login input[type="button"]{
+    background-color: black;
+    border: 2px solid #2ecc71;
+    width:150px;
+    cursor: pointer;
+}
+
+.login input[type="text"]:focus,.login input[type="password"]:focus
+{
+   
+    width: 280px;
+    transition:0.5s;
+}
+.login input[type="submit"]:hover{
+    background-color: green;
+    transition: 0.5s;
+}
+
+
+.Box1 {
+  padding-bottom: 3vh;
+  display: flex;
+  align-items: center;
+}
+
+.Box1-box1,
+.Box1-box2 {
+  display: block;
+  flex: 1;
+  height: .25vh;
+  width: 100%;
+  background-color: #dbdbdb;
+}
+
+.logInWayBox1-font {
+  color: #ccc;
+  padding: 0 1vw;
+  text-transform: uppercase;
+  font-size: .75vw;
+}
+  

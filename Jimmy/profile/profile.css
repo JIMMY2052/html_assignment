@@ -1,0 +1,105 @@
+
+.allinfo {
+  border-style: solid;
+  background-color: grey;
+  border-radius: 10px;
+  width: 600px;
+  height: 750px;
+  color: black;
+  padding:20px;
+  margin-left: 40%;
+  margin-top: 5%;
+  min-width: 500px;
+  min-height: 550px;
+}
+
+.infobox1{
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  color:black;
+  padding: 10px;
+  box-shadow: 10px 10px 20px black;
+}
+
+.infobox1 h2{
+  color: black;
+  text-align: center;
+}
+
+.infobox1 input{
+  display: block;
+  margin: 0px auto;
+  background: none;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 10px;
+  color:black;
+  border-color: black;
+  font-size: 20px;
+}
+
+.infobox2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button input {
+  position: absolute;
+  opacity: 0;
+  cursor:crosshair;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.button:hover input ~ .checkmark {
+  background-color: rgb(12, 12, 12);
+}
+.button input:checked ~ .checkmark {
+  background-color: #00C896;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.button input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.button .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
